@@ -1,1 +1,45 @@
-/* TODO: Create CSS */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+    color: white;
+}
+
+.navbar h1 {
+    font-family: 'Shadows Into Light Two';
+    font-size: 1.5em;
+    margin: 10px 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    color: white;
+    padding: 8px 10px;
+}
+
+.menu a:hover {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    
+}
