@@ -6,12 +6,22 @@ body {
     color: white;
 }
 
+p {
+    font-family: 'Bebas Neue';
+}
+
+h1 {
+    font-family: 'League Gothic';
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+/* Nav Bar */
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: pink;
-    color: white;
 }
 
 .navbar h1 {
@@ -41,5 +51,92 @@ body {
     background-color: white;
     border-radius: 15px;
     color: black;
-    
+}
+
+/* The Body */
+.double-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div-first-column {
+    grid-column: 1 / 2;
+    margin: 40px;
+}
+
+.div-second-column {
+    grid-column: 2 / 3;
+    margin: 40px;
+}
+
+.div-first-column h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.div-second-column h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.img-first-column {
+    grid-column: 1 / 2;
+    width: 100%;
+}
+
+.img-second-column {
+    grid-column: 2 / 3;
+    width: 100%;
+}
+
+/* Buy Book Section */
+#buy-book {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#buy-book div {
+    background-color: #222222;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+#buy-book h1 {
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+
+#buy-book form {
+    display: flex;
+    gap: 3px;
+}
+
+#buy-book input[type='email'] {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Bebas Neue';
+    margin-left: 30px;
+    width: 100%;
+}
+
+#buy-book input[type='button'] {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Bebas Neue';
+    margin-right: 30px;
+}
+
+#buy-book p {
+    text-align: center;
+}
+
+footer {
+    font-family: 'Bebas Neue';
+    text-align: center;
+    margin-bottom: 30px;
 }
