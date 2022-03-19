@@ -122,6 +122,7 @@ h1 {
     font-family: 'Bebas Neue';
     margin-left: 30px;
     width: 100%;
+    border-style: none;
 }
 
 #buy-book input[type='button'] {
@@ -129,6 +130,12 @@ h1 {
     border-radius: 10px;
     font-family: 'Bebas Neue';
     margin-right: 30px;
+    border-style: none;
+}
+
+#buy-book input[type='button']:hover {
+    color: white;
+    background-color: black;
 }
 
 #buy-book p {
